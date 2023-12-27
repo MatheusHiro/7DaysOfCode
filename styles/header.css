@@ -15,6 +15,9 @@ header {
     gap: .5rem;
     text-decoration: none;
     color: var(--third-font-color);
+    font-weight: 500;
+    font-size: 1.125rem;
+
 }
 
 .header-navigation {
@@ -26,6 +29,9 @@ header {
 .header-navigation-item-link {
     text-decoration: none;
     color: var(--primary-font-color);
+    font-weight: 500;
+    font-size: 1rem;
+
 }
 
 .header-navigation-buttons {
@@ -36,5 +42,52 @@ header {
 .header-navigation-buttons-link {
     text-decoration: none;
     color: var(--primary-font-color);
+    font-weight: 500;
 
+
+}
+
+.header-board {
+    display: flex;
+    flex-direction: column;
+    padding: 6rem 0;
+    align-items: center;
+    gap: 1.5rem;
+    align-self: stretch;
+}
+
+.header-board-sectionName {
+    color: var(--red);
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.header-board-title-container {
+    display: flex;
+    padding: 0 2rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: .75;
+    flex-shrink: 0;
+}
+
+.header-board-title {
+    color: var(--second-font-color);
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.header-board-text-container {
+    display: flex;
+    padding: .75rem 20rem 0 20rem;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1 0 0;
+}
+
+.header-board-text {
+    color: var(--primary-font-color);
+    font-size: 1.25rem;
+    font-weight: 400;
+    text-align: center;
 }
