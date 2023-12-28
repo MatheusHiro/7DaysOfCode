@@ -1,0 +1,45 @@
+.metrics {
+    display: flex;
+    padding: 0 5rem 6rem 5rem;
+}
+
+.metrics-container {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 0 2rem;
+}
+
+.metrics-container-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+    align-self: stretch;
+}
+
+.metrics-container-content-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.25rem;
+    flex: 1 0 0;
+}
+
+.metrics-title {
+    color: var(--red);
+    font-size: 3.75rem;
+    font-weight: 600;
+
+}
+
+.metrics-subtitle {
+    color: var(--second-font-color);
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+
+.metrics-text {
+    color: var(--primary-font-color);
+    font-size: 1rem;
+    font-weight: 400;
+}
