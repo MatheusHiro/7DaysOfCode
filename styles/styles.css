@@ -2,6 +2,7 @@
 @import url("header.css");
 @import url("buttons.css");
 @import url("metrics.css");
+@import url("talent.css");
 
 :root {
     --main-color: #FFFFFF;

@@ -1,6 +1,9 @@
 .metrics {
     display: flex;
     padding: 0 5rem 6rem 5rem;
+    align-self: stretch;
+    align-items: center;
+    justify-content: center;
 }
 
 .metrics-container {
