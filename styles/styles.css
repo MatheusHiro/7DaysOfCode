@@ -3,6 +3,7 @@
 @import url("buttons.css");
 @import url("metrics.css");
 @import url("talent.css");
+@import url("jobs.css");
 
 :root {
     --main-color: #FFFFFF;
@@ -11,6 +12,7 @@
     --second-font-color: #101828;
     --third-font-color: #3A404E;
     --main-font: 'Inter', sans-serif;
+    --gray: #EAECF0;
 }
 
 .body {
