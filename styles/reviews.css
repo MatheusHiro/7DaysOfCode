@@ -1,0 +1,61 @@
+.reviews {
+    display: flex;
+    padding: 0 7rem 6rem 7rem;
+    padding-bottom: 6rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+}
+
+.reviews-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 1rem;
+    background: rgba(195, 25, 25, 0.03);
+    padding: 4rem;
+    gap: 2rem;
+}
+
+.reviews-title {
+    color: var(--red);
+    font-size: .875rem;
+    font-weight: 600;
+}
+
+.reviews-text {
+    color: var(--black);
+    font-size: 2.25rem;
+    font-weight: 500;
+}
+
+.reviews-employee {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.reviews-employee-image {
+    width: 40.0125%;
+}
+
+.reviews-employee-text {
+    display: flex;
+    gap: .25rem;
+    flex-direction: column;
+}
+
+.reviews-employee-text-name {
+    color: var(--second-font-color);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.reviews-employee-text-job {
+    color: var(--primary-font-color);
+    font-size: .875rem;
+    font-weight: 400;
+}

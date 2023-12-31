@@ -4,6 +4,7 @@
 @import url("metrics.css");
 @import url("talent.css");
 @import url("jobs.css");
+@import url("reviews.css");
 
 :root {
     --main-color: #FFFFFF;
