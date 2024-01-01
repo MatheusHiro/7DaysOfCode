@@ -5,6 +5,7 @@
 @import url("talent.css");
 @import url("jobs.css");
 @import url("reviews.css");
+@import url("footer.css");
 
 :root {
     --main-color: #FFFFFF;
